@@ -1929,8 +1929,8 @@ function jsonResponse(obj) {
                     reject(new Error('Only JPG, PNG, or PDF invoice files are allowed.'));
                     return;
                 }
-                if (file.size > 2.5 * 1024 * 1024) {
-                    reject(new Error('File exceeds 2.5 MB limit. Please upload a smaller JPG or PDF.'));
+                if (file.size > 25 * 1024 * 1024) {
+                    reject(new Error('File exceeds 25 MB limit. Please upload a smaller JPG or PDF.'));
                     return;
                 }
 
