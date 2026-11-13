@@ -1380,7 +1380,7 @@ function jsonResponse(obj) {
         let selectedRowIds = new Set();
 
         let currency = localStorage.getItem(STORAGE_KEYS.CURRENCY) || '₹';
-        let scriptUrl = localStorage.getItem(STORAGE_KEYS.SCRIPT_URL) || '';
+        let scriptUrl = localStorage.getItem(STORAGE_KEYS.SCRIPT_URL) || 'https://script.google.com/macros/s/AKfycbwJEsvJRLv1gYfNMIWz42e7Y1sKcfDT-gQ0DBpXdXaFUmbGtDgZFg1pMzZx9IXWLCkr/exec';
         let adminCreds = JSON.parse(localStorage.getItem(STORAGE_KEYS.ADMIN_CREDS) || '{"username":"admin","password":"admin123"}');
         let appSettings = JSON.parse(localStorage.getItem(STORAGE_KEYS.SETTINGS) || '{"allowPublicRequests":true}');
 
