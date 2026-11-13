@@ -1398,19 +1398,16 @@ function jsonResponse(obj) {
         };
 
         const DEFAULT_CATEGORIES = [
-            { name: 'Food & Dining', color: '#f97316', budget: 8000 },
-            { name: 'Groceries', color: '#10b981', budget: 10000 },
+ 
             { name: 'Transport & Fuel', color: '#3b82f6', budget: 7000 },
-            { name: 'Housing & Rent', color: '#8b5cf6', budget: 30000 },
+       
             { name: 'Utilities & Bills', color: '#eab308', budget: 6000 },
-            { name: 'Cloud & Software', color: '#06b6d4', budget: 12000 },
-            { name: 'Shopping', color: '#ec4899', budget: 8000 },
-            { name: 'Healthcare', color: '#ef4444', budget: 5000 },
+            
             { name: 'Other', color: '#64748b', budget: 5000 }
         ];
 
-        const DEFAULT_DEPARTMENTS = ['Operations', 'Engineering', 'Sales & Business', 'Marketing', 'HR & Admin', 'Finance & Admin', 'Field Staff'];
-        const DEFAULT_PAYMENT_MODES = ['UPI', 'Corporate Card', 'Personal Reimbursement', 'Bank Transfer', 'Debit Card', 'Cash'];
+        const DEFAULT_DEPARTMENTS = ['Secretary', 'President', 'Treasurer', 'Member', 'Ex-Mem'];
+        const DEFAULT_PAYMENT_MODES = ['UPI','Cash'];
 
         let expenses = [];
         let categories = [];
