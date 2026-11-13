@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulari Tournament | Expenditure Tracker</title>
+
+      <link rel="icon" type="image/png" href="https://pulariartsandsportsclub.github.io/membershipfees/PULARI.png">
+  <link rel="preload" as="image" href="https://pulariartsandsportsclub.github.io/membershipfees/PULARI.png">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Chart.js for Visualizations -->
@@ -66,18 +69,17 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2">
             <!-- Brand & Connection Status -->
             <div class="flex items-center gap-2.5 shrink-0">
-                <div class="w-9 h-9 rounded-xl bg-brand-600 flex items-center justify-center text-white shadow-md shadow-brand-500/20 shrink-0">
-                    <i data-lucide="wallet" class="w-5 h-5"></i>
-                </div>
+                  <img src="https://pulariartsandsportsclub.github.io/membershipfees/PULARI.png" alt="Logo" class="preloader-logo" width="70" height="70">
                 <div>
                     <div class="flex items-center gap-2">
-                        <h1 class="text-base sm:text-lg font-bold tracking-tight leading-none">Pulari Tounament</h1>
+                        <h1 class="text-base sm:text-lg font-bold tracking-tight leading-none">Pulari Tournament</h1>
                         <span id="roleModeBadge" class="hidden xl:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700">
                             <i data-lucide="eye" class="w-3 h-3"></i> Viewer
                         </span>
                     </div>
                     <span id="connectionBadge" class="inline-flex items-center gap-1 text-[11px] font-medium text-amber-600 dark:text-amber-400 mt-0.5">
-                        <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> </span>
+                        <span class="w-1.5 h-1.5 rounded-full bg-amber-500"></span> 
+                    </span>
                 </div>
             </div>
 
@@ -983,15 +985,7 @@
 
             <form id="adminLoginForm" class="p-6 space-y-4">
                 <!-- 1-Click Quick Demo Login Banner -->
-                <div class="p-3.5 rounded-xl bg-brand-50 dark:bg-brand-950/60 border border-brand-200 dark:border-brand-800/80 flex items-center justify-between gap-3 text-xs">
-                    <div class="text-brand-800 dark:text-brand-200">
-                        <span class="font-bold block">Instant Demo Access:</span>
-                        <span>User: <code class="font-mono font-bold">admin</code> &bull; Pass: <code class="font-mono font-bold">admin123</code></span>
-                    </div>
-                    <button type="button" onclick="quickDemoLogin()" class="px-3 py-2 rounded-xl bg-brand-600 text-white font-bold hover:bg-brand-700 shadow-sm transition shrink-0 flex items-center gap-1">
-                        <i data-lucide="zap" class="w-3.5 h-3.5"></i> Quick Demo Login
-                    </button>
-                </div>
+            
 
                 <div>
                     <label for="loginUsername" class="block text-xs font-medium text-slate-600 dark:text-slate-300 mb-1">Username</label>
